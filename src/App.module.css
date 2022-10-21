@@ -4,4 +4,5 @@
   max-width: 570px;
   margin: 0 auto;
   background-color: white;
+  border: 3px solid var(--oro);
 }

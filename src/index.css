@@ -16,3 +16,7 @@ body {
   font-family: var(--josefin);
   background-color: black;
 }
+
+img {
+  max-width: 100%;
+}
