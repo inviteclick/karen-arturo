@@ -1,0 +1,7 @@
+.main {
+  width: 100%;
+  min-width: 320px;
+  max-width: 570px;
+  margin: 0 auto;
+  background-color: white;
+}

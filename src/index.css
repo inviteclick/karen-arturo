@@ -1,7 +1,8 @@
-:root{
+:root {
   box-sizing: border-box;
-  --greatVibes: 'Great Vibes';
-  --josefin: 'Josefin Sans';
+  --greatVibes: "Great Vibes";
+  --josefin: "Josefin Sans";
+  --oro: #9a8500;
 }
 *,
 ::before,
@@ -11,6 +12,7 @@
   padding: 0;
 }
 
-body{
+body {
   font-family: var(--josefin);
+  background-color: black;
 }
