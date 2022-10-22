@@ -1,0 +1,44 @@
+.main {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.main > * + * {
+  margin-top: 30px;
+}
+.title {
+  color: var(--oro);
+  font-weight: 300;
+}
+
+.subtitle {
+}
+
+.main ul > li {
+  color: var(--oro);
+  font-size: 18px;
+}
+
+.main ul > li + li {
+  margin-top: 10px;
+}
+
+.main p {
+  margin-bottom: 10px;
+}
+
+.frase {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.main img {
+  border: 3px solid var(--oro);
+  width: 90%;
+}
+
+.last {
+  margin-top: 10px;
+  color: var(--oro);
+}

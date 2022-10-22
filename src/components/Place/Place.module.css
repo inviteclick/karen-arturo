@@ -1,0 +1,101 @@
+.main {
+  margin-top: 50px;
+}
+
+.sub {
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--oro);
+  text-align: center;
+}
+.invitacion {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.invitacion > span {
+  display: block;
+}
+
+.invitacion > * + * {
+  margin-top: 5px;
+}
+
+.invitacion > *:first-child {
+  border-top: 3px solid var(--oro);
+  padding-top: 10px;
+}
+.invitacion > *:last-child {
+  border-bottom: 3px solid var(--oro);
+  padding-bottom: 10px;
+}
+
+.for {
+  color: var(--oro);
+  font-size: 18px;
+}
+
+.invited {
+  font-size: 24px;
+}
+
+.pases {
+  font-size: 18px;
+  background-color: var(--oro);
+  color: white;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.month,
+.year {
+  font-size: 18px;
+  padding: 3px 0;
+  border-bottom: 1px solid var(--oro);
+  border-top: 1px solid var(--oro);
+}
+
+.day {
+  font-size: 42px;
+}
+
+.year {
+}
+
+.hour {
+  font-size: 18px;
+}
+
+.ubi {
+  font-size: 16px;
+}
+button {
+  font-family: var(--josefin);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.buton {
+  width: 45%;
+  padding: 16px;
+  height: 68px;
+  color: var(--oro);
+  background-color: white;
+  border: 1px solid var(--oro);
+}
+
+.butonUbi {
+  width: 40%;
+  padding: 16px;
+  height: 68px;
+  background-color: var(--oro);
+  color: white;
+  border: 1px solid var(--oro);
+}
