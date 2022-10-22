@@ -8,6 +8,7 @@
 .title {
   text-transform: uppercase;
   margin-bottom: 10px;
+  color: var(--oro);
 }
 
 .main img {

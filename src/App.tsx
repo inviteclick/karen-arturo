@@ -1,4 +1,5 @@
 import styles from "./App.module.css";
+import { Code } from "./components/Code";
 import { Header } from "./components/Header";
 import { MesadeRegalo } from "./components/MesadeRegalo";
 import { Parents } from "./components/Parents";
@@ -11,6 +12,7 @@ function App() {
       <Parents />
       <Place />
       <MesadeRegalo />
+      <Code />
     </div>
   );
 }
