@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/karen-arturo/static/css/main.c8c5ec46.css",
-    "main.js": "/karen-arturo/static/js/main.586a90a1.js",
+    "main.js": "/karen-arturo/static/js/main.10b0df04.js",
     "static/js/787.e1d464f4.chunk.js": "/karen-arturo/static/js/787.e1d464f4.chunk.js",
-    "static/media/img1.png": "/karen-arturo/static/media/img1.a140e1ac82d3f7600c58.png",
+    "static/media/up.mp3": "/karen-arturo/static/media/up.3ebdd67f0aeb5395c992.mp3",
     "static/media/flores.svg": "/karen-arturo/static/media/flores.23def26d6a4fe89a5779094c834bb2dc.svg",
-    "static/media/img3.jpeg": "/karen-arturo/static/media/img3.0da9f1149d0474865fd5.jpeg",
+    "static/media/img1.jpeg": "/karen-arturo/static/media/img1.ca72705ae415a6fec9e0.jpeg",
+    "static/media/img3.jpeg": "/karen-arturo/static/media/img3.19d057f656ff5391742f.jpeg",
     "static/media/img2.jpeg": "/karen-arturo/static/media/img2.be77454530f0f42cbffa.jpeg",
     "static/media/code.png": "/karen-arturo/static/media/code.3965e415f00894e07db4.png",
     "static/media/liverpool.png": "/karen-arturo/static/media/liverpool.c06d0e70acbb867cc038.png",
     "index.html": "/karen-arturo/index.html",
     "static/media/frame.svg": "/karen-arturo/static/media/frame.052c1c1103ab5043902e4bb8bd807c4a.svg",
     "main.c8c5ec46.css.map": "/karen-arturo/static/css/main.c8c5ec46.css.map",
-    "main.586a90a1.js.map": "/karen-arturo/static/js/main.586a90a1.js.map",
+    "main.10b0df04.js.map": "/karen-arturo/static/js/main.10b0df04.js.map",
     "787.e1d464f4.chunk.js.map": "/karen-arturo/static/js/787.e1d464f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8c5ec46.css",
-    "static/js/main.586a90a1.js"
+    "static/js/main.10b0df04.js"
   ]
 }
