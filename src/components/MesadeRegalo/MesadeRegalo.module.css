@@ -15,3 +15,14 @@
   width: 60%;
   border: 1px solid #e90f98;
 }
+
+.main a {
+  text-align: center;
+}
+
+.main span {
+  text-align: center;
+  background-color: #e90f98;
+  color: white;
+  padding: 5px;
+}
