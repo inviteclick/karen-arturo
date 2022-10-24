@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import img1 from "../../imgs/img1.png";
+import img1 from "../../imgs/img1.jpeg";
 import frame from "../../imgs/decoration/frame.svg";
 import flores from "../../imgs/decoration/flores.svg";
 
