@@ -1,7 +1,9 @@
 import styles from "./Place.module.css";
 import { useTakeScreenShot } from "../../hooks/useTakeScreenShot";
+import { useGetGuest } from "../../hooks/useGetGuest";
 export const Place = () => {
-  const { ref, takeSS, image } = useTakeScreenShot();
+  const { ref, takeSS } = useTakeScreenShot();
+  const { invitado, adultos, niños } = useGetGuest();
 
   return (
     <div className={styles.main}>
@@ -11,8 +13,23 @@ export const Place = () => {
       </div>
       <div className={styles.invitacion} ref={ref}>
         <span className={styles.for}>Invitacion para:</span>
-        <span className={styles.invited}>Familia Saviñon</span>
-        <span className={styles.pases}>2 pases</span>
+        <span className={styles.invited}>{invitado}</span>
+        <span className={styles.pases}>
+          {adultos}
+          {niños && (adultos as number) < 2
+            ? " adulto"
+            : niños && (adultos as number) >= 2
+            ? " adultos"
+            : (adultos as number) >= 2
+            ? " pases"
+            : " pase"}
+          {niños ? " y " : null}
+          {(niños as number) >= 2
+            ? `${niños} niños`
+            : (niños as number) < 2 && niños
+            ? `${niños} niño`
+            : null}
+        </span>
         <div className={styles.date}>
           <div className={styles.month}>NOV</div>
           <div className={styles.day}>19</div>

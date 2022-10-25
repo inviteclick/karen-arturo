@@ -4,25 +4,29 @@ import { Header } from "./components/Header";
 import { MesadeRegalo } from "./components/MesadeRegalo";
 import { Parents } from "./components/Parents";
 import { Place } from "./components/Place";
-import ReactAudioPlayer from "react-audio-player";
 import audio from "./audio/up.mp3";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useRef } from "react";
+import { ConfirmCodeModal } from "./components/ConfirmCodeModal";
+import { ContextInstance } from "./context";
 
 function App() {
-  const [play, setPlay] = useState(true);
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setPlay(true);
-  //   }, 5000);
-  // }, []);
+  const { state } = useContext(ContextInstance);
+  const ref = useRef(null);
+  useEffect(() => {
+    let el: any = ref.current;
+    if (el && state.selectedGuest?.id) {
+      el.play();
+    }
+  }, [state.selectedGuest]);
   return (
     <div className={styles.main}>
-      <ReactAudioPlayer src={audio} autoPlay={play} loop />
+      <audio ref={ref} src={audio} loop></audio>
       <Header />
       <Parents />
       <Place />
       <MesadeRegalo />
       <Code />
+      <ConfirmCodeModal isOpen />
     </div>
   );
 }
