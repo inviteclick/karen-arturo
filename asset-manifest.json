@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/karen-arturo/static/css/main.c8c5ec46.css",
-    "main.js": "/karen-arturo/static/js/main.10b0df04.js",
+    "main.css": "/karen-arturo/static/css/main.32a82284.css",
+    "main.js": "/karen-arturo/static/js/main.922cd6fd.js",
     "static/js/787.e1d464f4.chunk.js": "/karen-arturo/static/js/787.e1d464f4.chunk.js",
     "static/media/up.mp3": "/karen-arturo/static/media/up.3ebdd67f0aeb5395c992.mp3",
     "static/media/flores.svg": "/karen-arturo/static/media/flores.23def26d6a4fe89a5779094c834bb2dc.svg",
@@ -12,12 +12,12 @@
     "static/media/liverpool.png": "/karen-arturo/static/media/liverpool.c06d0e70acbb867cc038.png",
     "index.html": "/karen-arturo/index.html",
     "static/media/frame.svg": "/karen-arturo/static/media/frame.052c1c1103ab5043902e4bb8bd807c4a.svg",
-    "main.c8c5ec46.css.map": "/karen-arturo/static/css/main.c8c5ec46.css.map",
-    "main.10b0df04.js.map": "/karen-arturo/static/js/main.10b0df04.js.map",
+    "main.32a82284.css.map": "/karen-arturo/static/css/main.32a82284.css.map",
+    "main.922cd6fd.js.map": "/karen-arturo/static/js/main.922cd6fd.js.map",
     "787.e1d464f4.chunk.js.map": "/karen-arturo/static/js/787.e1d464f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8c5ec46.css",
-    "static/js/main.10b0df04.js"
+    "static/css/main.32a82284.css",
+    "static/js/main.922cd6fd.js"
   ]
 }
