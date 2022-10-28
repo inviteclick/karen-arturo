@@ -72,9 +72,8 @@ export const guestsList = [
   { invitado: "paola", adultos: 1, niños: null },
   { invitado: "dulce", adultos: 1, niños: null },
   { invitado: "darwin romero", adultos: 1, niños: null },
+  { invitado: "  ", adultos: 2, niños: null },
 ].map((value) => ({ ...value, id: sha256(value.invitado).slice(0, 6) }));
-
-//console.log(guestsListRaw);
 
 // let obo = JSON.stringify(
 //   guestsListRaw.map((value) => ({
